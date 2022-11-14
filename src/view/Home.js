@@ -6,8 +6,10 @@ const Home = () => {
     <div className="home-container">
       <div className="components-title">Components</div>
       <div className="components-container">
-        <div>Input</div>
+        <div className="components-heading">Inputs</div>
         <Link to="/input/tag">Tag</Link>
+        <div className="components-heading">Misc</div>
+        <Link to="misc/alert">Alert</Link>
       </div>
     </div>
   );
