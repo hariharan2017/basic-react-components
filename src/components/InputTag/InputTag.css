@@ -1,0 +1,31 @@
+.input-tag-container {
+  margin: 2rem;
+}
+
+.tag-container {
+  margin: 0 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #0052cc;
+  color: white;
+  padding: 0.4rem;
+}
+
+.tag-close {
+  display: inline-block;
+  height: 20px;
+  width: 16px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  color: #0052cc;
+  margin: 0.4rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  line-height: 14px;
+}
+
+.input-tag {
+  width: 100%;
+}
